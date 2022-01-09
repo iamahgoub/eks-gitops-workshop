@@ -8,10 +8,10 @@ spec:
     spec:
       version: ">=1.0.0"
   values:
-    replicaCount: 5
+    replicaCount: 10
     hpa:
       enabled: true
-      maxReplicas: 5
+      maxReplicas: 10
     ingress:
       hosts:
         - host: podinfo.production
